@@ -1,8 +1,8 @@
-// Permet de survoler des éléments et d'être redirigé vers une nouvelle page
+// Allows hovering over elements and being redirected to a new page
 
-document.querySelectorAll(".profil").forEach(e => e.addEventListener("click", function (event) {
+document.querySelectorAll(".profile").forEach(e => e.addEventListener("click", function (event) {
     let target = event.target;
-    while (target.getAttribute("class") != "profil") {
+    while (target.getAttribute("class") != "profile") {
         target = target.parentElement;
     }
     window.location.href = target.dataset.url;
@@ -16,9 +16,9 @@ document.querySelectorAll(".article").forEach(e => e.addEventListener("click", f
     window.location.href = target.dataset.url;
 }))
 
-document.querySelectorAll(".suivant").forEach(e => e.addEventListener("click", function (event) {
+document.querySelectorAll(".next").forEach(e => e.addEventListener("click", function (event) {
     let target = event.target;
-    while (target.getAttribute("class") != "suivant") {
+    while (target.getAttribute("class") != "next") {
         target = target.parentElement;
     }
     window.location.href = target.dataset.url;
