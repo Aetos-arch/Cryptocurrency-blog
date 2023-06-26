@@ -138,9 +138,9 @@ article a:hover, aside a:hover, #information a:hover {
     margin-bottom: 50px;
 }
 
-/* Chaque profil-contact */
+/* Chaque profile-contact */
 
-.profil {
+.profile {
     display: inline-block;
     width: 310px;
     padding: 20px;
@@ -151,27 +151,27 @@ article a:hover, aside a:hover, #information a:hover {
 
 /* Rendre plus transparent le profil contact au survol */
 
-#contact-accueil .profil:hover {
+#contact-accueil .profile:hover {
     opacity: 0.5;
     cursor: pointer;
 }
 
 /* Le chapeau d'étudiant */
 
-.profil img {
+.profile img {
     width: 60px;
 }
 
 /* Le nom de l'étudiant */
 
-.profil h2 {
+.profile h2 {
     font-size: 20px;
     font-weight: bold;
 }
 
 /* Les informations de l'étudiant */
 
-.profil ul {
+.profile ul {
     font-size: 19px;
     list-style: none;
     padding: 0;
@@ -264,7 +264,7 @@ article a:hover, aside a:hover, #information a:hover {
     border-radius: 10px;
 }
 
-#contact .profil {
+#contact .profile {
     text-align: center;
     display: inline-block;
 }
@@ -395,7 +395,7 @@ article a:hover, aside a:hover, #information a:hover {
     bottom: 943px;
 }
 
-#motscles, #profil-aside {
+#motscles, #profile-aside {
     width: 300px;
     display: inherit;
     position: absolute;
@@ -410,20 +410,20 @@ article a:hover, aside a:hover, #information a:hover {
 
 /* Le contact dans l'aside */
 
-#profil-aside {
+#profile-aside {
     height: 307px;
     top: 1545px;
     left: 1475px;
 }
 
-#profil-aside:hover {
+#profile-aside:hover {
     opacity: 0.5;
     cursor: pointer;
 }
 
-/* Le bouton suivant */
+/* Le bouton next */
 
-.suivant {
+.next {
     width: 400px;
     margin-left: 855px;
     margin-top: 50px;
@@ -434,16 +434,16 @@ article a:hover, aside a:hover, #information a:hover {
     cursor: pointer;
 }
 
-.suivant:hover {
+.next:hover {
     opacity: 0.5;
 }
 
-.suivant h2 {
+.next h2 {
     font-size: 25px;
     margin: 0px;
 }
 
-.suivant p {
+.next p {
     margin: 0px;
     font-size: 22px;
 }
