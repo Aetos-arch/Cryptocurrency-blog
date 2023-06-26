@@ -279,7 +279,7 @@ article a:hover, aside a:hover, #information a:hover {
 
 /* La carte google map */
 
-#carte {
+#map {
     border: none;
     border-radius: 10px;
     display: inline-block;
@@ -313,47 +313,47 @@ article a:hover, aside a:hover, #information a:hover {
 
 /* La partie Contactez-Nous */
 
-#contactez-nous {
+#contact-us {
     text-align: center;
     background-color: #F8F9FA;
     border-radius: 10px;
     padding: 50px;
 }
 
-#contactez-nous h1 {
+#contact-us h1 {
     font-size: 45px;
 }
 
-#contactez-nous hr {
+#contact-us hr {
     width: 50%;
     margin-bottom: 50px;
 }
 
-#contactez-nous form {
+#contact-us form {
     width: 800px;
     margin-left: 500px;
 }
 
-#contactez-nous input {
+#contact-us input {
     width: 160px;
 }
 
-#contactez-nous input, #contacteznous textarea {
+#contact-us input, #contact-us textarea {
     border-radius: 5px;
     border: 1px solid gray;
     margin-bottom: 25px;
     padding: 5px;
 }
 
-#contactez-nous textarea {
+#contact-us textarea {
     width: 750px;
 }
 
-#adressemail {
+#mail {
     margin: 0px 100px;
 }
 
-#envoyer {
+#send {
     border: none;
     width: 110px;
     height: 30px;
@@ -369,7 +369,7 @@ article a:hover, aside a:hover, #information a:hover {
     font-weight: inherit;
 }
 
-#auteur, #date {
+#author, #date {
     display: inline-block;
     width: auto;
 }
@@ -394,14 +394,14 @@ article a:hover, aside a:hover, #information a:hover {
     bottom: 943px;
 }
 
-#motscles, #profile-aside {
+#keywords, #profile-aside {
     width: 300px;
     display: inherit;
     position: absolute;
     margin-top: 50px;
 }
 
-#motscles {
+#keywords {
     height: 300px;
     top: 1153px;
     left: 1320px;
