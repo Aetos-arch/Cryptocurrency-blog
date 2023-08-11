@@ -1,6 +1,6 @@
 # Cryptocurrency Blog
 
-Web project for the 1st year of Computer Science DUT (Diplôme Universitaire de Technologie). Developed in a group of 4, I organized, coded, and debugged the project.
+Web project for the 1st year of Computer Science DUT (Diplôme Universitaire de Technologie). Developed in a group of 4.
 
 ## Technologies Used:
 
